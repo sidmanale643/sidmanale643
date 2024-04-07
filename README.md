@@ -1,7 +1,8 @@
 # 👾 Hello , I am Sidhant
 Deeply passionate about AI and particularly drawn to Computer Vision, LLMs, enjoyment stems from exploring their complexities and limitless potential.
 
-## contact me at sidmanale643@gmail.com
+## Email
+sidmanale643@gmail.com
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sidmanale643&label=Profile%20views&color=0e75b6&style=flat" alt="sidmanale643" /> </p>
 
