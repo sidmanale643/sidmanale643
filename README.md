@@ -13,7 +13,5 @@ Deeply passionate about AI and particularly drawn to Computer Vision, LLMs, enjo
 ![](https://github-readme-stats.vercel.app/api?username=sidmanale643&theme=radical&hide_border=false&include_all_commits=false&count_private=false)<br/>
 [![](https://visitcount.itsvg.in/api?id=sidmanale643&label=Profile%20Views&color=6&icon=2&pretty=false)](https://visitcount.itsvg.in)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=sidmanale643&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=sidmanale643&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
 ---
 
