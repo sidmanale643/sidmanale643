@@ -1,7 +1,7 @@
 # 👾 Hello , I am Sidhant
 Deeply passionate about AI and particularly drawn to Computer Vision, LLMs, enjoyment stems from exploring their complexities and limitless potential.
 
-```<p align="left"> <img src="https://komarev.com/ghpvc/?username=sidmanale643&label=Profile%20views&color=0e75b6&style=flat" alt="sidmanale643" /> </p>```
+`<p align="left"> <img src="https://komarev.com/ghpvc/?username=sidmanale643&label=Profile%20views&color=0e75b6&style=flat" alt="sidmanale643" /> </p>`
 [![](https://visitcount.itsvg.in/api?id=sidmanale643&label=Profile%20Views&color=6&icon=2&pretty=false)](https://visitcount.itsvg.in)<br/>
 
 ## 📧 Email
