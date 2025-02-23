@@ -1,5 +1,5 @@
 # 👾 Hello , I am Sidhant
-Deeply passionate about AI and particularly drawn to Computer Vision, LLMs, enjoyment stems from exploring their complexities and limitless potential.
+Transformer go BRR ........
 
 
 [![](https://visitcount.itsvg.in/api?id=sidmanale643&label=Profile%20Views&color=6&icon=2&pretty=false)](https://visitcount.itsvg.in)
