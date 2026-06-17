@@ -1,8 +1,4 @@
-# Sidhant here
-
-## profile views
-
-<!--![Profile Views](https://komarev.com/ghpvc/?username=sidmanale643&color=blue&style=flat-square)-->
+# Sidhant
 
 AI engineer
 
@@ -28,7 +24,7 @@ AI engineer
 
 ---
 
-## Projcets
+## Projects
 
 ### [Atlas](https://github.com/sidmanale643/Atlas)
 Brain-inspired semantic memory system. Every thought you feed it lands as a glowing node inside a 3D atlas of your inner world. SQLite for truth, LanceDB for vectors, Transformers.js for local embeddings. Speaks MCP — drop it into Claude Desktop or Cursor and your agent gets long-term memory.
@@ -52,5 +48,6 @@ AI-powered CLI that translates plain English into precise shell commands. Covers
 Spotlight-inspired bookmark manager with a keyboard-first search interface. `Cmd+K` opens fuzzy search powered by Fuse.js across titles, URLs, descriptions, and tags. Automatic domain-based categorization, custom collections with nested support, Supabase cloud sync with offline-first fallback, and Three.js-powered background animations.
 
 ---
+<!--![Profile Views](https://komarev.com/ghpvc/?username=sidmanale643&color=blue&style=flat-square)-->
 
 *atlas · northstar · terminus-cli · filesense · bloom · shellmind · stash*
