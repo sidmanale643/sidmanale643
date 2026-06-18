@@ -61,6 +61,6 @@ Keyboard-first bookmark manager with fuzzy search across titles, URLs, descripti
 
 `atlas` · `northstar` · `terminus-cli` · `filesense` · `bloom` · `shellmind` · `stash`
 
-<!--
-![Profile Views](https://komarev.com/ghpvc/?username=sidmanale643&color=blue&style=flat-square)
--->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sidmanale643&label=Profile%20Views&color=blue&style=flat-square" alt="Profile views" />
+</p>
