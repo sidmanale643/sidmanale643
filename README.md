@@ -33,7 +33,7 @@
 
 Brain-inspired semantic memory system where every thought becomes a glowing node inside a 3D atlas of your inner world. Uses SQLite as the source of truth, LanceDB for vectors, and Transformers.js for local embeddings. Supports MCP for long-term agent memory.
 
-### [NorthStar](https://github.com/sidmanale643/northstar)
+### [Evalon](https://github.com/sidmanale643/evalon)
 
 Observability, debugging, and evaluation platform for AI agents. Its Python SDK auto-instruments OpenAI and Anthropic calls, capturing messages, tool calls, token usage, cost, latency, and exceptions. Includes versioned prompts, a LiteLLM-backed service, deterministic graders, and LLM judges.
 
