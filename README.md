@@ -1,6 +1,6 @@
 # Sidhant
 
-**AI Engineer** · *Average Codex Enjoyer*
+**AI Engineer**
 
 [Twitter](https://twitter.com/sidmanale643) ·
 [LinkedIn](https://linkedin.com/in/sidhantmanale) ·
