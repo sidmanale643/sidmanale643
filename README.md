@@ -1,6 +1,6 @@
 # Sidhant
 
-**AI Engineer**
+**AI engineer building local-first agent and inference tools.**
 
 [Twitter](https://twitter.com/sidmanale643) ·
 [LinkedIn](https://linkedin.com/in/sidhantmanale) ·
@@ -21,45 +21,45 @@
 
 ## Working On
 
-- **AI memory systems** — Semantic memory layers that let agents remember, connect, and recall by meaning rather than keywords.
-- **Agent observability** — Tracing, evaluation, and cost tracking without changing application control flow.
-- **CLI experiences** — Terminal interfaces with multi-agent coordination, session memory, and skill systems.
+- **Coding agents** — Persistent workspaces, delegation, local session history, and terminal-native workflows.
+- **Inference engineering** — Building Transformer and KV-cache representations, then applying those lessons in a local inference engine.
+- **Local AI tooling** — Memory, observability, evaluation, and session-search tools that keep data on the developer's machine.
 
 ---
 
-## Projects
+## Selected Projects
+
+### [Ares](https://github.com/sidmanale643/Ares)
+
+Terminal-first coding agent with a persistent Python workspace, process-isolated subagents, progressive skills, local JSONL and SQLite session history, and an optional execution dashboard.
+
+### [Helios](https://github.com/sidmanale643/helios)
+
+Local inference engine that separates a FastAPI frontend from a FIFO model scheduler over ZeroMQ. It runs a native Qwen3 runtime with explicit KV-cache management and device-memory admission checks.
+
+### [Inference Representations](https://github.com/sidmanale643/inference-engineering)
+
+Hands-on learning repository for inference engineering, with compact PyTorch implementations of Transformer components and autoregressive KV-cache prefill and decode flow.
+
+### [CurseBench](https://github.com/sidmanale643/cursebench)
+
+Read-only, local-first telemetry for abusive language in coding-agent sessions. It compares harnesses with normalized metrics while keeping source transcripts on the machine.
+
+### [Rewind View](https://github.com/sidmanale643/rewind-view)
+
+Local web UI and CLI for searching, browsing, cost-estimating, and handing off sessions from Claude, Codex, Cursor, OpenCode, and Antigravity.
 
 ### [Atlas](https://github.com/sidmanale643/Atlas)
 
-Brain-inspired semantic memory system where every thought becomes a glowing node inside a 3D atlas of your inner world. Uses SQLite as the source of truth, LanceDB for vectors, and Transformers.js for local embeddings. Supports MCP for long-term agent memory.
+Python semantic-memory framework with SQLite storage, optional vector search and local embeddings, plus optional CLI, API, MCP, and web adapters.
 
 ### [Evalon](https://github.com/sidmanale643/evalon)
 
-Observability, debugging, and evaluation platform for AI agents. Its Python SDK auto-instruments OpenAI and Anthropic calls, capturing messages, tool calls, token usage, cost, latency, and exceptions. Includes versioned prompts, a LiteLLM-backed service, deterministic graders, and LLM judges.
+Local observability and evaluation for Python agents: trace runs in SQLite, build versioned datasets, and run deterministic or rubric-based evaluations.
 
 ### [Terminus CLI](https://github.com/sidmanale643/terminus-cli)
 
-AI development companion for the terminal. Coordinates specialized background agents, analyzes entire codebases, and executes natural-language tasks. Built with React and Ink, with SQLite-backed session memory and a directory-based skills system.
-
-### [FileSense](https://github.com/sidmanale643/file-sense)
-
-Local document search engine combining BM25 keyword matching with semantic vector search through reciprocal rank fusion. Supports PDFs, Word documents, and text files with incremental indexing, hardware-adaptive modes, and a React frontend.
-
-### [Bloom](https://github.com/sidmanale643/bloom-vault)
-
-Agent-run Obsidian knowledge vault based on Andrej Karpathy’s LLM wiki pattern. Converts videos, papers, articles, PDFs, screenshots, and notes into durable source notes, concept pages, people profiles, and cited reports.
-
-### [ShellMind](https://github.com/sidmanale643/shell-mind)
-
-AI-powered CLI that translates plain English into precise shell commands for tools such as Docker, Kubernetes, Git, AWS CLI, and Terraform. Includes explanations, safety checks, interactive clarification, and optional execution.
-
-### [Stash](https://github.com/sidmanale643/stash)
-
-Keyboard-first bookmark manager with fuzzy search across titles, URLs, descriptions, and tags. Includes automatic categorization, nested collections, Supabase sync, offline fallback, and Three.js background animations.
-
----
-
-`atlas` · `northstar` · `terminus-cli` · `filesense` · `bloom` · `shellmind` · `stash`
+AI coding agent for the terminal that investigates codebases, builds features, executes commands, and verifies results.
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sidmanale643&label=Profile%20Views&color=blue&style=flat-square" alt="Profile views" />
