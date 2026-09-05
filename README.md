@@ -11,55 +11,59 @@
 
 ## Stack
 
-| | Technologies |
-|---|---|
-| **Languages** | `Python` · `SQL` · `Bash` |
-| **Frameworks** | `PyTorch` · `FastAPI` · `Pydantic` · `LangChain` · `LangGraph` · `n8n` |
-| **Developer Tools** | `GCP` · `Docker` · `Kubernetes` · `Supabase` · `PostgreSQL` · `SQLite` · `Redis` · `Langfuse` |
+|                     | Technologies                                                                                            |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Languages**       | `Python` · `TypeScript` · `SQL` · `Bash`                                                                |
+| **AI / ML**         | `PyTorch` · `CUDA` · `Transformers` · `Hugging Face` · `LangChain` · `LangGraph` · `LlamaIndex` · `MCP` |
+| **Backend & Data**  | `FastAPI` · `Pydantic` · `SQLite` · `PostgreSQL` · `Redis` · `LanceDB`                                  |
+| **Developer Tools** | `Docker` · `Kubernetes` · `GCP` · `Git` · `GitHub` · `Supabase` · `Langfuse`                            |
 
 ---
 
 ## Working On
 
-- **AI memory systems** — Semantic memory layers that let agents remember, connect, and recall by meaning rather than keywords.
-- **Agent observability** — Tracing, evaluation, and cost tracking without changing application control flow.
-- **CLI experiences** — Terminal interfaces with multi-agent coordination, session memory, and skill systems.
+* **Inference engineering** — LLM serving, KV caching, batching, GPU memory management, and runtime performance.
+* **AI agents** — Stateful coding agents, subagents, tool execution, orchestration, and self-improving harnesses.
+* **Memory** — Local-first semantic memory, knowledge graphs, hybrid retrieval, and memory decay.
+* **Observability & evals** — Tracing, datasets, evaluators, regression testing, and CI/CD gates for AI systems.
 
 ---
 
 ## Projects
 
-### [Atlas](https://github.com/sidmanale643/Atlas)
+### [Helios](https://github.com/sidmanale643/helios)
 
-Brain-inspired semantic memory system where every thought becomes a glowing node inside a 3D atlas of your inner world. Uses SQLite as the source of truth, LanceDB for vectors, and Transformers.js for local embeddings. Supports MCP for long-term agent memory.
+Lightweight LLM inference engine built from scratch in PyTorch.
 
-### [Evalon](https://github.com/sidmanale643/evalon)
+Implements Qwen3 with grouped-query attention, RoPE, RMSNorm, SwiGLU, Hugging Face weight loading, and autoregressive decoding. Includes KV and prefix caching, shared GPU-memory budgeting, Paged Attention, Flash Attention, `torch.compile`, continuous batching, and benchmarks for TTFT, inter-token latency, throughput, and cache hit rates.
 
-Observability, debugging, and evaluation platform for AI agents. Its Python SDK auto-instruments OpenAI and Anthropic calls, capturing messages, tool calls, token usage, cost, latency, and exceptions. Includes versioned prompts, a LiteLLM-backed service, deterministic graders, and LLM judges.
+### [Ares](https://github.com/sidmanale643/Ares)
+
+Coding harness built around a persistent IPython workspace.
+
+Uses a stateful `repl_py` tool for repository inspection, file manipulation, shell execution, and iterative development. Includes process-isolated subagents, progressive skill loading, persistent session history, and a trajectory-driven self-improvement system that updates prompts, skills, and subagent specifications across runs.
 
 ### [Terminus CLI](https://github.com/sidmanale643/terminus-cli)
 
-AI development companion for the terminal. Coordinates specialized background agents, analyzes entire codebases, and executes natural-language tasks. Built with React and Ink, with SQLite-backed session memory and a directory-based skills system.
+AI coding agent with an autonomous tool-calling loop.
 
-### [FileSense](https://github.com/sidmanale643/file-sense)
+Supports repo-aware file operations, shell execution, web search, sandboxing, model routing, automatic context compaction, persistent SQLite sessions, reusable skills, and project-level instructions. Mission Control coordinates Scout, Worker, and Verifier agents with dependency-aware execution, structured evidence, and lifecycle persistence.
 
-Local document search engine combining BM25 keyword matching with semantic vector search through reciprocal rank fusion. Supports PDFs, Word documents, and text files with incremental indexing, hardware-adaptive modes, and a React frontend.
+### [Atlas](https://github.com/sidmanale643/Atlas)
 
-### [Bloom](https://github.com/sidmanale643/bloom-vault)
+Local-first semantic memory framework for AI agents.
 
-Agent-run Obsidian knowledge vault based on Andrej Karpathy’s LLM wiki pattern. Converts videos, papers, articles, PDFs, screenshots, and notes into durable source notes, concept pages, people profiles, and cited reports.
+Converts conversations into atomic memories and persists validated entities, relationships, and temporal context as a SQLite knowledge graph. Uses hybrid BM25 + cosine retrieval over local embeddings, with reranking based on recency, access reinforcement, and an exponential-decay fade mechanism.
 
-### [ShellMind](https://github.com/sidmanale643/shell-mind)
+Includes an interactive Three.js 3D brain mapping memories across 11 regions and exposes the core through FastAPI, CLI workers, and MCP tools.
 
-AI-powered CLI that translates plain English into precise shell commands for tools such as Docker, Kubernetes, Git, AWS CLI, and Terraform. Includes explanations, safety checks, interactive clarification, and optional execution.
+### [Evalon](https://github.com/sidmanale643/evalon)
 
-### [Stash](https://github.com/sidmanale643/stash)
+Local, terminal-first observability and evaluation platform for Python agents.
 
-Keyboard-first bookmark manager with fuzzy search across titles, URLs, descriptions, and tags. Includes automatic categorization, nested collections, Supabase sync, offline fallback, and Three.js background animations.
+Records traces, nested spans, events, metrics, token usage, latency, errors, and cost estimates in SQLite. Supports versioned datasets, deterministic and custom-Python evaluators, LLM-as-judge evaluation, baselines, regression comparisons, concurrent evaluation runs, and CI/CD gates.
 
 ---
-
-`atlas` · `northstar` · `terminus-cli` · `filesense` · `bloom` · `shellmind` · `stash`
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sidmanale643&label=Profile%20Views&color=blue&style=flat-square" alt="Profile views" />
