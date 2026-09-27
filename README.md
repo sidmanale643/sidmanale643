@@ -31,13 +31,22 @@
 
 ## Projects
 
-## Projects
-
 * **[Helios](https://github.com/sidmanale643/helios)** — LLM inference engine built from scratch in PyTorch, with paged attention, prefix caching and continuous batching.
 * **[Ares](https://github.com/sidmanale643/Ares)** — Coding harness built on a persistent IPython workspace, with isolated subagents and self-improvement driven by past runs.
 * **[Terminus CLI](https://github.com/sidmanale643/terminus-cli)** — AI coding agent with its own tool-calling loop, context compaction, and Scout/Worker/Verifier agents coordinated by Mission Control.
 * **[Atlas](https://github.com/sidmanale643/Atlas)** — Local-first semantic memory for agents, combining a SQLite knowledge graph, hybrid BM25 + vector search, and memory decay.
 * **[Evalon](https://github.com/sidmanale643/evalon)** — Terminal-first tracing and evals for Python agents, with datasets, LLM-as-judge, regression checks and CI gates.
+
+### Tools for agent users
+
+* **[Rewind View](https://github.com/sidmanale643/rewind-view)** — `npx rewind-view`. Local dashboard that indexes your Claude, Codex, Cursor, OpenCode and Antigravity sessions for search, cost tracking and cross-agent handoffs.
+* **[CurseBench](https://github.com/sidmanale643/cursebench)** — `uvx cursebench`. Measures how often you swear at your coding agents, compared across harnesses and models. Read-only, and nothing leaves your machine.
+* **[Bloom](https://github.com/sidmanale643/bloom)** — Agent-run Obsidian vault following Karpathy's LLM-wiki pattern: drop in papers, videos and articles, and an agent compiles them into a linked knowledge base.
+
+### From scratch
+
+* **[Qwen3-0.6B from scratch](https://github.com/sidmanale643/Qwen-0.6B-from-scratch)** — Qwen3 architecture reimplemented in PyTorch and loaded with the official weights.
+* **[Inference Engineering](https://github.com/sidmanale643/inference-engineering)** — Small, runnable implementations of inference concepts (attention, KV caching and more), built while working toward Helios.
 
 ---
 
