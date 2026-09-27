@@ -31,37 +31,13 @@
 
 ## Projects
 
-### [Helios](https://github.com/sidmanale643/helios)
+## Projects
 
-Lightweight LLM inference engine built from scratch in PyTorch.
-
-Implements Qwen3 with grouped-query attention, RoPE, RMSNorm, SwiGLU, Hugging Face weight loading, and autoregressive decoding. Includes KV and prefix caching, shared GPU-memory budgeting, Paged Attention, Flash Attention, `torch.compile`, continuous batching, and benchmarks for TTFT, inter-token latency, throughput, and cache hit rates.
-
-### [Ares](https://github.com/sidmanale643/Ares)
-
-Coding harness built around a persistent IPython workspace.
-
-Uses a stateful `repl_py` tool for repository inspection, file manipulation, shell execution, and iterative development. Includes process-isolated subagents, progressive skill loading, persistent session history, and a trajectory-driven self-improvement system that updates prompts, skills, and subagent specifications across runs.
-
-### [Terminus CLI](https://github.com/sidmanale643/terminus-cli)
-
-AI coding agent with an autonomous tool-calling loop.
-
-Supports repo-aware file operations, shell execution, web search, sandboxing, model routing, automatic context compaction, persistent SQLite sessions, reusable skills, and project-level instructions. Mission Control coordinates Scout, Worker, and Verifier agents with dependency-aware execution, structured evidence, and lifecycle persistence.
-
-### [Atlas](https://github.com/sidmanale643/Atlas)
-
-Local-first semantic memory framework for AI agents.
-
-Converts conversations into atomic memories and persists validated entities, relationships, and temporal context as a SQLite knowledge graph. Uses hybrid BM25 + cosine retrieval over local embeddings, with reranking based on recency, access reinforcement, and an exponential-decay fade mechanism.
-
-Includes an interactive Three.js 3D brain mapping memories across 11 regions and exposes the core through FastAPI, CLI workers, and MCP tools.
-
-### [Evalon](https://github.com/sidmanale643/evalon)
-
-Local, terminal-first observability and evaluation platform for Python agents.
-
-Records traces, nested spans, events, metrics, token usage, latency, errors, and cost estimates in SQLite. Supports versioned datasets, deterministic and custom-Python evaluators, LLM-as-judge evaluation, baselines, regression comparisons, concurrent evaluation runs, and CI/CD gates.
+* **[Helios](https://github.com/sidmanale643/helios)** — LLM inference engine built from scratch in PyTorch, with paged attention, prefix caching and continuous batching.
+* **[Ares](https://github.com/sidmanale643/Ares)** — Coding harness built on a persistent IPython workspace, with isolated subagents and self-improvement driven by past runs.
+* **[Terminus CLI](https://github.com/sidmanale643/terminus-cli)** — AI coding agent with its own tool-calling loop, context compaction, and Scout/Worker/Verifier agents coordinated by Mission Control.
+* **[Atlas](https://github.com/sidmanale643/Atlas)** — Local-first semantic memory for agents, combining a SQLite knowledge graph, hybrid BM25 + vector search, and memory decay.
+* **[Evalon](https://github.com/sidmanale643/evalon)** — Terminal-first tracing and evals for Python agents, with datasets, LLM-as-judge, regression checks and CI gates.
 
 ---
 
