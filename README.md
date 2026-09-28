@@ -31,11 +31,11 @@
 
 ## Projects
 
-* **[Helios](https://github.com/sidmanale643/helios)** — LLM inference engine built from scratch in PyTorch, with paged attention, prefix caching and continuous batching.
-* **[Ares](https://github.com/sidmanale643/Ares)** — Coding harness built on a persistent IPython workspace, with isolated subagents and self-improvement driven by past runs.
-* **[Terminus CLI](https://github.com/sidmanale643/terminus-cli)** — AI coding agent with its own tool-calling loop, context compaction, and Scout/Worker/Verifier agents coordinated by Mission Control.
-* **[Atlas](https://github.com/sidmanale643/Atlas)** — Local-first semantic memory for agents, combining a SQLite knowledge graph, hybrid BM25 + vector search, and memory decay.
-* **[Evalon](https://github.com/sidmanale643/evalon)** — Terminal-first tracing and evals for Python agents, with datasets, LLM-as-judge, regression checks and CI gates.
+* **[Helios](https://github.com/sidmanale643/helios)** — Lightweight LLM inference engine built from scratch in PyTorch, with paged attention, prefix caching and continuous batching.
+* **[Ares](https://github.com/sidmanale643/Ares)** — Self improving RLM harness with a persistent IPython environment and recursive subagents.
+* **[Terminus CLI](https://github.com/sidmanale643/terminus-cli)** — Coding harness with its own tool-calling loop, context compaction, and Scout/Worker/Verifier agents coordinated by Mission Control.
+* **[Atlas](https://github.com/sidmanale643/Atlas)** — Local-first semantic memory for agents, combining a SQLite knowledge graph, hybrid BM25 + vector search, and exponential memory decay.
+* **[Evalon](https://github.com/sidmanale643/evalon)** — Tracing and evals for Python agents, with datasets, LLM-as-judge, regression checks and CI gates.
 
 ### Tools for agent users
 
